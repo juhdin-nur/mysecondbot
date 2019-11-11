@@ -1,15 +1,17 @@
 {
-  "name": "SUSI-Bot",
+  "name": "susi_linebot",
   "version": "1.0.0",
   "description": "SUSI AI LINE bot",
   "main": "index.js",
-  "dependencies": {
-    "@line/bot-sdk": "^1.1.0",
-    "express": "^4.17.1",
-    "http": "0.0.0",
-    "request": "^2.88.0"
-  },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@line/bot-sdk": "^6.0.1",
+    "express": "^4.16.3",
+    "request": "^2.85.0"
   }
 }
